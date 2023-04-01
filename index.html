@@ -14,13 +14,27 @@
 <body>
   <div class="felicitacion">
     <h1>Feliz cumpleaños, Alicia</h1>
-    <p>¡Feliz cumpleaños, querida Alicia! Hoy es un día muy especial, un día en el que celebramos el hecho de que has dado una vuelta más alrededor del sol. Pero para alguien como tú, que ha navegado por mares turbulentos, ha luchado contra la Reina de Corazones y ha desafiado las leyes de la lógica y la razón, el simple hecho de cumplir años no es más que un juego de niños.</p>
-    <p>Así que en lugar de ofrecerte un regalo mundano o una felicitación común, te ofrezco algo mucho más valioso: mi amistad. Si alguna vez necesitas alguien con quien tomar el té, jugar al croquet o simplemente compartir una conversación absurda, estaré aquí para ti, siempre listo para brindarte un poco de locura y diversión en este mundo tan aburrido y predecible. ¿Lista para sumergirte en una nueva aventura por el País de las
+    <p>¡Feliz cumpleaños, querida Alicia! Hoy es un día muy especial, un día en el que celebramos el hecho de que has
+      dado una vuelta más alrededor del sol. Pero para alguien como tú, que ha navegado por mares turbulentos, ha
+      luchado contra la Reina de Corazones y ha desafiado las leyes de la lógica y la razón, el simple hecho de cumplir
+      años no es más que un juego de niños.</p>
+    <p>Así que en lugar de ofrecerte un regalo mundano o una felicitación común, te ofrezco algo mucho más valioso: mi
+      amistad. Si alguna vez necesitas alguien con quien tomar el té, jugar al croquet o simplemente compartir una
+      conversación absurda, estaré aquí para ti, siempre listo para brindarte un poco de locura y diversión en este
+      mundo tan aburrido y predecible. ¿Lista para sumergirte en una nueva aventura por el País de las
       Maravillas?</p>
-    <img src="image.jpg" alt="Poster de felicitación del Sombrerero Loco">
-    <p>¡Que tu día esté lleno de aventuras, risas y sorpresas, y que el próximo año te traiga aún más cosas maravillosas por descubrir! Feliz cumpleaños, Alicia, y recuerda: ¡la vida es un sueño, pero un sueño muy real!"</p>
+    <img src="image.jpg" alt="Poster de felicitación del Sombrerero Loco" class="poster" onclick="abrirModal(this)">
+    <p>¡Que tu día esté lleno de aventuras, risas y sorpresas, y que el próximo año te traiga aún más cosas maravillosas
+      por descubrir! Feliz cumpleaños, Alicia, y recuerda: ¡la vida es un sueño, pero un sueño muy real!"</p>
   </div>
   <a href="https://aliceinwonderland.fandom.com/es/wiki/Las_aventuras_de_Alicia_en_el_pa%C3%ADs_de_las_maravillas"
     class="enlace">Volver al País de las Maravillas</a>
-</body>
 
+  <div id="modal">
+    <div id="modal-contenido">
+      <img id="modal-imagen" src="">
+      <button id="modal-cerrar" onclick="cerrarModal()">X</button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
