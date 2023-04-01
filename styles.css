@@ -77,7 +77,8 @@ p {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 30px;
+  font-size: 20px;
   color: #000;
   cursor: pointer;
+  border-radius: 5px;
 }
